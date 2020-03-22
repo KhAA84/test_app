@@ -7,7 +7,7 @@
       <h2 class="subtitle">
         Main page
       </h2>
-      <div v-if="!$store.state.authUser" class="links">
+      <div v-if="!$store.state.authUser">
         <nuxt-link to="/login" class="button--green">
           Log in / Sign Up
         </nuxt-link>
@@ -16,7 +16,9 @@
         <nuxt-link to="/profile" class="button--green">
           Profile
         </nuxt-link>
-        <button @click="logout">Logout</button>        
+        <button @click="logout" class="button--grey">
+          Logout
+        </button>        
       </div>  
     </div>
   </div>
@@ -62,7 +64,7 @@ export default {
   color: #35495e;
   letter-spacing: 1px;
 }
-
+i6
 .subtitle {
   font-weight: 300;
   font-size: 42px;
