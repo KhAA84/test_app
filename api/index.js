@@ -24,7 +24,7 @@ router.post('/login', (req, res) => {
         login: req.body.username
       })
       .value()
-    console.log(isUser);
+    // console.log(isUser);
     if ((isUser !== undefined) && (isUser.password !== req.body.password)) {
       res.status(401).json({
         message: 'Bad credentials'

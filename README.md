@@ -14,4 +14,7 @@
 
     - has nothing but link to main page. Also knows you. =)
 
+    to start in dev mode use:
+    "npm run dev"
+
 
