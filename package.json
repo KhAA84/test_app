@@ -5,7 +5,7 @@
   "author": "KhAA84",
   "private": true,
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "body-parser": "^1.17.2",
     "cross-env": "^7.0.2",
     "express": "^4.15.3",
